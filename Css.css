@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+    
+}
+
+.linecontainer{
+    display: flex;
+}
+
+.yearcontainer{
+    margin-bottom: 0.5rem;
+}
+
+.passedDay{
+    background-color: rgb(97, 97, 97);
+}
+
+.currentDay{
+    background-color: brown;
+}
+
+.square{ /* or future day */
+    width: calc(0.81vw - 2px);
+    height: calc(0.81vw - 2px);
+    border: 1px solid rgb(97, 97, 97);
+    margin: 1px;
+    border-radius: 2px;
+
+}
